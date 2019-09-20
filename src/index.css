@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.product{
+  margin:0% 15% !important;
+}
+/*.productname{
+  padding:2px !important;
+  color:black !important;
+}
+.productmodal{
+  height:450px !important;
+}
+*/
+.pagination{
+  margin-left:50% !important;
+}
+/*.active {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.actives {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}*/
+.storeform {
+  margin-top:5% !important;
+}
+.storeseg {
+  height:100% !important;
+}
+.storestore {
+  margin-top:5% !important;
+}
+.storelist{
+  height:500px !important;
+}

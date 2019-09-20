@@ -1,0 +1,242 @@
+{
+    "userData" : [
+        {},
+        {},
+        {
+            "id": 1,
+            "address" : "0x first buyer",
+            "name": "first buyer ",
+            "email": "first@buyer.com",
+            "phoneNumber": "11111111111",
+            "profilePicture": "ffffff",
+            "userType": "Buyer",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 2,
+            "address" : "0x second buyer",
+            "name": "second buyer ",
+            "email": "second@buyer.com",
+            "phoneNumber": "2222222",
+            "profilePicture": "ssssssssssssss",
+            "userType": "Buyer",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 3,
+            "address" : "0x third buyer",
+            "name": "third buyer ",
+            "email": "third@buyer.com",
+            "phoneNumber": "333333",
+            "profilePicture": "ttttttttttt",
+            "userType": "Buyer",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 4,
+            "address" : "0x first seller",
+            "name": "first seller ",
+            "email": "first@seller.com",
+            "phoneNumber": "11111111111",
+            "profilePicture": "fffff",
+            "userType": "Seller",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 5,
+            "address" : "0x second seller",
+            "name": "second seller ",
+            "email": "second@seller.com",
+            "phoneNumber": "2222222222222",
+            "profilePicture": "sssssssssss",
+            "userType": "Seller",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 6,
+            "address" : "0x third seller",
+            "name": "third seller ",
+            "email": "third@seller.com",
+            "phoneNumber": "33333333333",
+            "profilePicture": "ttttttttt",
+            "userType": "Seller",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 7,
+            "address" : "0x first arbiter",
+            "name": "first arbiter",
+            "email": "first@arbiter.com",
+            "phoneNumber": "111111111111111111",
+            "profilePicture": "ffffffffff",
+            "userType": "Arbiter",
+            "userState": "Approved",
+            "exists": true
+        },
+        {
+            "id": 8,
+            "address" : "0x second arbiter",
+            "name": "second arbiter",
+            "email": "second@arbiter.com",
+            "phoneNumber": "22222222",
+            "profilePicture": "ffffffffff",
+            "userType": "Arbiter",
+            "userState": "Approved",
+            "exists": true
+        }
+    ],
+    "productData" : [
+        {},
+        {
+            "id": 1,
+            "store_id" : 1,  
+            "name": "test_name1",
+            "category": "cate1",
+            "imageLink": "test_iamgeLink_1",
+            "descLink": "test_descLink_1",
+            "startTime": "test_startTime_1",
+            "price": 0.1,
+            "buyer":  "0x0",
+            "productCondition": "New",
+            "productState": "ForSale",
+            "exists": true
+        },
+        {
+            "id": 2,
+            "store_id" : 1, 
+            "name": "test_name2",
+            "category": "cate1",
+            "imageLink": "test_iamgeLink_2",
+            "descLink": "test_descLink_2",
+            "startTime": "test_startTime_2",
+            "price": 0.2,
+            "buyer":  "0x0",
+            "productCondition": "New",
+            "productState": "ForSale",
+            "exists": true
+        },
+        {
+            "id": 3,
+            "store_id" : 1, 
+            "name": "test_nam3",
+            "category": "cate1",
+            "imageLink": "test_iamgeLink_3",
+            "descLink": "test_descLink_3",
+            "startTime": "test_startTime_3",
+            "price": 0.3,
+            "buyer":  "0x first buyer",
+            "productCondition": "Used",
+            "productState": "Sold",
+            "exists": true
+        },
+        {
+            "id": 4,
+            "store_id" : 2, 
+            "name": "test_name3",
+            "category": "cate2",
+            "imageLink": "test_iamgeLink_4",
+            "descLink": "test_descLink_4",
+            "startTime": "test_startTime_4",
+            "price": 0.4,
+            "buyer":  "0x0",
+            "productCondition": "New",
+            "productState": "ForSale",
+            "exists": true
+        },
+        {
+            "id": 5,
+            "store_id" : 2, 
+            "name": "test_nam5",
+            "category": "cate2",
+            "imageLink": "test_iamgeLink_5",
+            "descLink": "test_descLink_5",
+            "startTime": "test_startTime_5",
+            "price": 0.5,
+            "buyer":  "0x second buyer",
+            "productCondition": "New",
+            "productState": "Sold",
+            "exists": true
+        },
+        {
+            "id": 6,
+            "store_id" : 2, 
+            "name": "test_nam5",
+            "category": "cate2",
+            "imageLink": "test_iamgeLink_6",
+            "descLink": "test_descLink_6",
+            "startTime": "test_startTime_6",
+            "price": 0.6,
+            "buyer":  "0x second buyer",
+            "productCondition": "New",
+            "productState": "Sold",
+            "exists": true
+        }
+    ],
+    "storeData" : [
+        {},
+        {
+            "id" : 1,
+            "storeAddress": "0xaaaaaaaaaaaaaaa",
+            "name": "first store",
+            "email": "fist@store.com",
+            "arbiter": "0xbbbbbbbbbbb",
+            "storeFrontImage": "storeFrontImage",
+            "balance": 5432.73,
+            "productCount": 2
+        },
+        {
+            "id" : 2,
+            "storeAddress": "0xbbbbbbbbbbb",
+            "name": "second store",
+            "email": "second@store.com",
+            "arbiter": "0xcccccccccccccc",
+            "storeFrontImage": "storeFrontImage",
+            "balance": 1.73,
+            "productCount": 1
+        }
+    ],
+    "myStoreID" : 0,
+    "myID": 1,
+    "escrowData" : [
+        {},
+        {
+            "id": 1,
+            "product_id": 3,
+            "buyer_id": 1,
+            "seller_id": 4,
+            "arbiter_id": 8,
+            "amount": "1.2 ETH",
+            "refund_count": 1,
+            "release_count": 1,
+            "fundsDisbursed": false
+        },
+        {
+            "id": 2,
+            "product_id": 5,
+            "buyer_id": 1,
+            "seller_id": 5,
+            "arbiter_id": 8,
+            "amount": "2.3 ETH",
+            "refund_count": 0,
+            "release_count": 1,
+            "fundsDisbursed": false
+        },
+        {
+            "id": 3,
+            "product_id": 6,
+            "buyer_id": 2,
+            "seller_id": 5,
+            "arbiter_id": 7,
+            "amount": "3.4 ETH",
+            "refund_count": 1,
+            "release_count": 0,
+            "fundsDisbursed": false
+        }
+    ]
+}
